@@ -1,4 +1,5 @@
 header h1 {
+text-align: center;
 font-family: impact;
 font-size: 3em;
 color: #ffffff;
@@ -7,6 +8,7 @@ body {
 background-color: #002b56;
 }
 .box {
+margin-left: 25px;
 height: 300px;
 width: 300px;
 padding: 20px;
@@ -19,7 +21,7 @@ border-width: 5px;
 box-shadow: 0 0 10px #00ffff;
 }
 .box_2 {
-margin-left: 400px;
+margin-left: 410px;
 margin-top: -370px;
 height: 300px;
 width: 600px;
@@ -146,4 +148,38 @@ border-radius: 10px;
 border: 2px solid #2bb800;
 border-width: 5px;
 box-shadow: 0 0 10px #2bb800;
+}
+.button {
+  /* Configuration Variables */
+  --btn-padding: 0.7em 1.2em;
+  --btn-bg: #342a21;
+  --btn-color: #ffffff;
+  --btn-hover-bg: #4b4b4a;
+  --btn-radius: 0.5em;
+  --btn-border-width: 3px;
+
+  /* Layout */
+  display: inline-flex;
+  align-items: center;
+  padding: var(--btn-padding);
+  gap: 0.5em;
+
+  /* Appearance */
+  background: var(--btn-bg);
+  color: var(--btn-color);
+  border: var(--btn-border-width) solid var(--btn-bg);
+  border-radius: var(--btn-radius);
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+
+  /* Animation */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect */
+.button:hover {
+  background: var(--btn-hover-bg);
 }
