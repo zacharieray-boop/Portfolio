@@ -22,7 +22,7 @@ box-shadow: 0 0 10px #00ffff;
 margin-left: 400px;
 margin-top: -370px;
 height: 300px;
-width: 800px;
+width: 600px;
 padding: 20px;
 background-color: #6d0040;
 font-family: sans-serif;
@@ -43,16 +43,18 @@ border-width: 5px;
 box-shadow: 0 0 10px #ff6f00;
 }
 .box_4 {
+margin-left: 1100px;
+margin-top: -370px;
 height: 300px;
 width: 300px;
 padding: 20px;
-background-color: #0073c5;
+background-color: #003809;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #00ffff;
+border: 2px solid #2bb800;
 border-width: 5px;
-box-shadow: 0 0 10px #00ffff;
+box-shadow: 0 0 10px #2bb800;
 }
 .box-title {
 margin-top: 10px;
@@ -62,7 +64,10 @@ color: #ffffff;
 -webkit-text-stroke: 0.5px #000000;
 }
 .icon {
-margin-left: 10px;
+margin-right: -25px;
+}
+.banner {
+margin-top: -20px;
 }
 .text_box {
 padding: 20px;
@@ -87,4 +92,58 @@ border-radius: 10px;
 border: 2px solid #d400ff;
 border-width: 5px;
 box-shadow: 0 0 10px #d400ff;
+}
+.text_box3 {
+padding: 20px;
+background-color: #a72a00;
+font-family: sans-serif;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ff6600;
+border-width: 5px;
+box-shadow: 0 0 10px #ff6600;
+}
+.text_box4 {
+justify-content: center;
+margin: 0 auto;
+width: 500px;
+height: 175px;
+padding: 20px;
+background-color: #a72a00;
+font-family: sans-serif;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ff6600;
+border-width: 5px;
+box-shadow: 0 0 10px #ff6600;
+}
+.text_box5 {
+justify-content: center;
+margin-top: -12px;
+margin-left: -10px;
+width: 275px;
+height: 75px;
+padding: 20px;
+background-color: #006511;
+font-family: sans-serif;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #2bb800;
+border-width: 5px;
+box-shadow: 0 0 10px #2bb800;
+}
+.text_box5_alt {
+justify-content: center;
+margin-top: -10px;
+margin-left: -10px;
+width: 275px;
+height: 25px;
+padding: 20px;
+background-color: #006511;
+font-family: sans-serif;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #2bb800;
+border-width: 5px;
+box-shadow: 0 0 10px #2bb800;
 }
