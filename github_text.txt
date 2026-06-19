@@ -1,0 +1,4 @@
+git pull
+git add chloe_d.html
+git commit -m "fix: chloe_d"
+git push
