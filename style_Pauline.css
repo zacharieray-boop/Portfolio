@@ -1,0 +1,95 @@
+
+
+body {
+
+    background-color: rgba(207, 238, 237, 0.837); /* Le fond de la page sera turquoise */
+   
+}
+
+h1 {
+    color: rgb(0, 157, 255); /* Le texte de la page sera bleu ciel */
+}
+
+h2 {
+    color: rgb(94, 50, 239); /* Le texte de la page sera bleu ciel */
+}
+
+.title {
+    text-align: center;
+}
+
+
+.box1 {
+    display: block;
+    text-align: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    background-color:  rgb(195, 251, 224);
+    margin-bottom: 1%;
+}
+
+.box2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    background-color:  rgb(195, 251, 224);
+    width: 50%;
+    margin-bottom: 1%;
+}
+
+.box3 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    background-color:  rgb(195, 251, 224);
+    width: 50%;
+    margin-bottom: 1%;
+}
+
+.box4 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 30px;
+    background-color:  rgb(195, 251, 224);
+    width: 50%;
+}
+
+
+.box5 {
+     display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 30px;
+    background-color:  rgb(195, 251, 224);
+    width: 50%;
+    margin-bottom: 1%;
+
+}
+
+
+/*.cadre {
+display: flex;
+flex-direction: row;
+gap: 20px;
+}/*/
+
+
+
