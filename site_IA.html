@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Power Swim - Club de Natation</title>
+
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Segoe UI",Arial ,sans-serif;
+}
+
+
+body{
+
+background:#eef9ff;
+color:#123;
+
+}
+
+
+
+/* HEADER */
+
+
+header{
+
+height:85px;
+background:white;
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+padding:0 8%;
+
+border-bottom:4px solid #00b4d8;
+
+position:sticky;
+top:0;
+z-index:10;
+
+}
+
+
+
+.logo{
+
+font-size:26px;
+font-weight:900;
+color:#006494;
+
+}
+
+
+nav a{
+
+text-decoration:none;
+color:#003049;
+font-weight:bold;
+margin-left:25px;
+
+}
+
+
+
+
+
+/* HERO */
+
+
+.hero{
+
+
+height:90vh;
+
+display:flex;
+align-items:center;
+
+padding:8%;
+
+
+background:
+
+linear-gradient(
+90deg,
+#003049ee,
+#0077b6aa
+),
+
+url("https://images.unsplash.com/photo-1530549387789-4c1017266635")
+
+center/cover;
+
+
+color:white;
+
+}
+
+
+
+.hero h1{
+
+font-size:60px;
+max-width:700px;
+text-transform:uppercase;
+
+}
+
+
+
+.hero p{
+
+font-size:22px;
+margin:25px 0;
+
+}
+
+
+
+.btn{
+
+background:#ff9f1c;
+
+padding:16px 35px;
+
+border-radius:6px;
+
+color:white;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+
+/* SECTIONS */
+
+
+section{
+
+padding:70px 8%;
+
+}
+
+
+
+.title{
+
+text-align:center;
+
+font-size:38px;
+
+color:#006494;
+
+margin-bottom:45px;
+
+}
+
+
+
+
+/* CARTES */
+
+
+.cards{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+}
+
+
+
+
+.card{
+
+background:white;
+
+padding:35px;
+
+border-radius:10px;
+
+border-top:8px solid #00b4d8;
+
+box-shadow:
+0 10px 25px #0002;
+
+
+}
+
+
+
+.card h3{
+
+color:#0077b6;
+
+font-size:24px;
+
+margin-bottom:15px;
+
+}
+
+
+
+
+.card p{
+
+line-height:1.6;
+
+}
+
+
+
+
+
+/* INSCRIPTIONS */
+
+
+.inscription{
+
+
+background:
+
+linear-gradient(
+135deg,
+#0077b6,
+#97abc6
+);
+
+
+color:white;
+
+
+}
+
+
+
+.offer{
+
+
+background:white;
+
+color:#123;
+
+padding:30px;
+
+border-radius:8px;
+
+border:3px solid #ff9f1c;
+
+text-align:center;
+
+
+}
+
+
+
+.offer h3{
+
+color:#0077b6;
+
+font-size:24px;
+
+}
+
+
+
+
+.offer a{
+
+
+display:block;
+
+margin-top:20px;
+
+background:#00b4d8;
+
+color:white;
+
+padding:12px;
+
+border-radius:5px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+
+}
+
+
+
+.offer a:hover{
+
+background:#ff9f1c;
+
+}
+
+
+
+
+
+
+/* STATISTIQUES */
+
+
+.stats{
+
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(180px,1fr));
+
+background:#003049;
+
+color:white;
+
+text-align:center;
+
+padding:40px;
+
+
+}
+
+
+.stats h2{
+
+font-size:40px;
+
+color:#00e5ff;
+
+}
+
+
+
+
+
+/* ACTUALITES */
+
+
+.news{
+
+background:#fff;
+
+border-left:8px solid #ff9f1c;
+
+padding:25px;
+
+border-radius:8px;
+
+}
+
+
+
+
+
+/* FOOTER */
+
+
+footer{
+
+
+background:#001d3d;
+
+color:white;
+
+padding:40px;
+
+text-align:center;
+
+
+}
+
+
+
+
+@media(max-width:700px){
+
+
+header{
+
+flex-direction:column;
+
+height:auto;
+
+padding:20px;
+
+gap:15px;
+
+}
+
+
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+
+}
+
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+
+
+<header>
+
+
+<div class="logo">
+ Power Swim
+</div>
+
+
+
+<nav>
+
+<a href="#club">Club</a>
+
+<a href="#activites">Activités</a>
+
+<a href="#inscription">Inscription</a>
+
+<a href="#contact">Contact</a>
+
+
+</nav>
+
+
+</header>
+
+
+
+
+
+<section class="hero">
+
+
+<div>
+
+
+<h1>
+Nagez.
+Progressez.
+Gagnez.
+</h1>
+
+
+<p>
+
+Un club de natation moderne où chaque nageur trouve sa place.
+
+</p>
+
+
+<a class="btn" href="#inscription">
+
+S'inscrire
+
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="club">
+
+
+<h2 class="title">
+
+Notre club
+
+</h2>
+
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>
+ Performance
+</h3>
+
+<p>
+Des entraîneurs qualifiés pour accompagner chaque progression.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+ Esprit d'équipe
+</h3>
+
+<p>
+Une ambiance familiale basée sur le respect et la motivation.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+ Confiance
+</h3>
+
+<p>
+Un environnement sécurisé pour apprendre et évoluer.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="activites">
+
+
+<h2 class="title">
+
+ Nos activités
+
+</h2>
+
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>
+Débutants
+</h3>
+
+<p>
+Apprentissage des bases et découverte du milieu aquatique.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>
+Adolescents
+</h3>
+
+<p>
+Technique, endurance et défis sportifs.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+Compétition
+</h3>
+
+<p>
+Préparation aux compétitions avec suivi personnalisé.
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="inscription" class="inscription">
+
+
+<h2 class="title">
+
+ Nos inscriptions
+
+</h2>
+
+
+
+
+<div class="cards">
+
+
+
+<div class="offer">
+
+<h3>
+École de natation
+</h3>
+
+<p>
+6 à 12 ans
+<br>
+Apprendre en sécurité
+</p>
+
+
+<a href="#">
+S'inscrire
+
+</a>
+
+</div>
+
+
+
+
+<div class="offer">
+
+<h3>
+Ados
+
+</h3>
+
+<p>
+13 à 17 ans
+<br>
+Progression sportive
+</p>
+
+
+<a href="#">
+S'inscrire
+
+</a>
+
+</div>
+
+
+
+
+<div class="offer">
+
+<h3>
+Adultes
+
+</h3>
+
+<p>
+Loisir & forme
+<br>
+Tous niveaux
+</p>
+
+
+<a href="#">
+S'inscrire
+
+</a>
+
+</div>
+
+
+
+
+
+<div class="offer">
+
+<h3>
+Compétition
+
+</h3>
+
+<p>
+Nageurs confirmés
+<br>
+Objectifs sportifs
+</p>
+
+
+<a href="#">
+Rejoindre
+
+</a>
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<div class="stats">
+
+
+<div>
+<h2>250+</h2>
+<p>Nageurs</p>
+</div>
+
+
+<div>
+<h2>15</h2>
+<p>Coach</p>
+</div>
+
+
+<div>
+<h2>20</h2>
+<p>Années d'expérience</p>
+</div>
+
+
+<div>
+<h2>50+</h2>
+<p>Podiums</p>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<section>
+
+
+<h2 class="title">
+
+ Actualités
+
+</h2>
+
+
+<div class="news">
+
+<b>Inscriptions ouvertes !</b>
+
+<p>
+Rejoignez Aqua Performance pour la nouvelle saison sportive.
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<footer id="contact">
+
+
+<h2>
+ Aqua Performance
+</h2>
+
+
+<p>
+Une association pour apprendre, progresser et se dépasser.
+</p>
+
+
+<p>
+contact@aquaperformance.fr
+</p>
+
+
+</footer>
+
+
+
+</body>
+</html>

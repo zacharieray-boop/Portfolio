@@ -1,38 +1,205 @@
 <!DOCTYPE html>
 <html lang="fr">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio - Zacharie</title>
-    <link rel="stylesheet" href="style.css">
+    <title>📓Mon Portfolio - Zacharie</title>
+    <link rel="stylesheet" href="style_zacharie.css">
   </head>
+
   <body>
+
     <header>
-      <h1>Bienvenue sur le site de Zacharie !</h1>
-      <p><a href="index.html">← Retour à l'accueil</a></p>
+      <div class="banner-container"></div>
+      <h1>
+        <span>S</span>
+        <span>I</span>
+        <span>T</span>
+        <span>E</span>
+        <span>_</span>
+        <span>D</span>
+        <span>E</span>
+        <span>_</span>
+        <span>Z</span>
+        <span>A</span>
+        <span>C</span>
+        <span>H</span>
+        <span>A</span>
+        <span>R</span>
+        <span>I</span>
+        <span>E</span>
+      </h1>
+      <p><a class="button" href="index.html">← Retour à l'accueil 🏠</a></p>
     </header>
+
     <main>
-      <section>
-        <h2>À propos de moi</h2>
-        <p>Bienvenue sur mon portfolio web ! Je m'appelle Zacharie Ray, je suis un élève de seconde au lycée Jean-Bart et je suis actuellement en stage à <strong>Epitech</strong>.</p>
+
+      <section class="box_about">
+        <h2 class="box-title">À propos de moi 💡</h2>
+        <p class="text_box">Bienvenue sur mon portfolio web !</p>
+        <p class="text_box">Je m'appelle Zacharie Ray, je suis un élève de seconde au lycée Jean-Bart et je suis actuellement en stage à <strong class="highlight">Epitech</strong>.</p>
       </section>
-      <section>
-        <h2>Mes passions</h2>
-        <p>J'adore la programmation et les jeux vidéos, j'aime beaucoup mener des petits projets. La musique est aussi une partie importante de mes loisirs, je peux écouter plusieurs heures par jour ! </p>
+    </br>
+      <section class="box_passions">
+        <h2 class="box-title">Mes passions ❤️</h2>
+        <p class="text_box_passions">
+        J'adore la programmation et les jeux vidéos, j'aime beaucoup mener de petits projets.
+        J'ai quelques notions en <strong class="highlight">C#, CSS</strong> et <strong class="highlight">HTML</strong> mais je suis sourtout à l'aise avec <strong class="highlight">Python</strong> et <strong class="highlight">Luau</strong>.
+        J'ai développé plusieurs petits jeux vidéos, d'abord sur Roblox, puis ensuite sur <strong class="highlight">Unity</strong> et <strong class="highlight">Unreal Engine</strong>.
+        La musique est aussi une partie importante de mes loisirs, je peux écouter plusieurs heures par jour !
+        Quand j'ai le temps, je compose quelques mélodies, vous pouvez retrouver mes plus réussies sur <strong class="highlight">YouTube</strong> !
+        </p>
       </section>
-      <section>
-        <h2>Mes projets</h2>
-        <p>Pendant plusieurs années j'ai mené une mini-entreprise ! J'ai développé plusieurs petits jeux sur différentes plateformes et quand il me reste du temps, je poste les musiques que j'ai produites sur YouTube par exemples.</p>
+    </br>
+      <section class="box_contact">
+        <h2 class="box-title">Me contacter 📞</h2>
+        <p class="banner"><strong> 🛑 Je suis actuellement en stage, je suis donc injoignable ! 🛑 </strong></p>
+        <p class="text_box_contact">
+        Vous pouvez me contacter sur :
+        </br>
+        <strong>Discord</strong> : infernocean
+        </br>
+        par <strong>mail</strong> : zacharie.ray@proton.me
+        </br>
+        par <strong>téléphone</strong> : 06 ** ** ** 75
+        </p>
+        <p class="text_box_contact_alt">N'hésitez pas à jetter un coup d'oeil à ma chaîne <strong>YouTube</strong> : <a class="button" href="https://www.youtube.com/@ectomusic">@EctoMusic</a></p>
       </section>
-      <section>
-        <h2>Me contacter</h2>
-        <p>Vous pouvez me joindre sur <strong>Discord</strong>.</p>
-        <p>N'hésitez pas à jetter un coup d'oeil à ma chaîne <strong>YouTube</strong> : <a href="https://www.youtube.com/@ectomusic">@EctoMusic</a> ! </p>
+    </br>
+      <section class="box_projects">
+        <h2 class="box-title">Mes projets 📓</h2>
+        <p class="text_box_projects">
+        Pendant plusieurs années j'ai mené une mini-entreprise !
+        J'ai développé plusieurs petits jeux sur différentes plateformes et quand il me reste du temps, je poste les musiques que j'ai produites sur YouTube par exemples.
+        </p>
+        
+        <h2 class="box-title_alt1">Ma mini-entreprise 🛠️</h2>
+        <p class="text_box_projects_alt1">
+        Pendant 2 ans au colège, j'ai dirigé une mini entreprise de création d'objets 3D !
+        Le but était de créer des objets à la fois utiles et décoratifs pour répondre aux différents besoins des clients.
+        Avec un petit groupe de 5 collégiens, nous avons créé <strong class="highlight">FormaCube</strong> !
+      </br>
+        <button id="ouvrirPopup" class="bouton-style">Lire l'article</button>
+
+        <div id="article" class="popup">
+          <div class="popup-contenu">
+            <p class="bouton-fermer">&times;</p>
+            <h2>FormaCube</h2>
+            <p>En classe de 5ème, mon groupe d'amis et moi avions envie de tenter notre chance dans le monde de l'entreprise, à notre niveau. 
+              Nous n'avions pas nécessairement beaucoup de connaissance dans le domaine de l'impression 3D, mais nous avions de bonnes bases en infomatique et nous étions déterminés.
+              C'est de là qu'est partie l'idée de notre entreprise : FormaCube. L'objectif était de créer des objets à la fois utiles et décoratifs pour répondre aux besoins de nos clients.
+            </br>
+            </br>
+              Malheuresement au collège nous ne disposions pas d'un matériel de dernière génération et durant la première année de notre entreprise, nous nous sommes principalement occupé de régler les différents problèmes techniques auqeles nous avons été confronté.
+              Malgré ces désagréments, cette année nous a servie à mettre en place notre étude de marché. Nous étions donc mieux préparés pour notre seconde année.
+              En classe de troisisème donc, nous avons pu lancer notre entreprise. Entre quelques problèmes mineurs, nous avons réussi à accéder aux requêtes multiples des clients, professeurs ou élèves.
+            </br>
+            </br>
+              En conclusion de ces deux années en entreprise, nous avons réussi à complétement réparer les imprimantes du collège, à vendre des produits, nous avons même pu assister à des séminaires !
+              Pour mon oral de brevet j'ai présenté cette entreprise comme je viens de le faire aujourd'hui.
+              C'est avec tristesse que j'ai abandonné mon entreprise à mon passage au lycée, mais grâce à nos efforts, un autre groupe de collégiens a repris le concept et a bénéficié du matériel durement installé !
+            </p>
+          </div>
+        </div>
+        </p>
+
+        <h2 class="box-title_alt2">Mes jeux vidéos 🎮</h2>
+        <p class="text_box_projects_alt2">
+        Depuis mon entrée au collège, j'ai tenté plusieurs genres de jeux, passant du survival horror au RPG en ligne.
+        Hélas beaucoup de mes projets n'ont pas rencontré de succès et j'ai du abandonner plusieurs d'entre eux.
+        Certains sont encore disponibles malgré tout !
+        En ce moment, ayant eu envie de viser un peu plus grand, je suis passé sur Unity.
+        Je développe activement un jeu <strong class="highlight">roguelike</strong> / <strong class="highlight">Zelda style</strong> et j'espère pouvoir le publier sur Steam !
+        </br>
+        <button id="ouvrirPopup2" class="bouton-style">Lire l'article</button>
+
+        <div id="article2" class="popup2">
+          <div class="popup2-contenu">
+            <p class="bouton2-fermer">&times;</p>
+            <h2>Tiny Swords</h2>
+            <p>
+              Some news about game developpement:
+              Starting a new RPG game in an old Zelda style !
+              I'll give some news after every step of the advancement, so stay tuned.
+              <img src="dev1.png" width = 600px height = 350px>
+            </br>
+            </br>
+              I've just add some enemies into my game !
+              Here is an exemple of one goblin with a pretty lethal torch :
+              <img src="dev2.png" width = 600px height = 350px>
+            </br>
+            </br>
+              I've just finished my stats system !
+              It's a must have in this type of games so it's a big step.
+              <img src="dev3.png" width = 600px height = 350px>
+            </br>
+            </br>
+              Adding an exp system to my RPG !! You get now rewards by killing enemies.
+              <img src="dev4.png" width = 600px height = 350px>
+            </p>
+        </p>
       </section>
+    </br>
+      <div class="box_skills">
+        <div class="content">
+          <div class="text" data-text="Compétences">Compétences</div>
+        </div>
+      </div>
+      <div class="text-wrapper">
+          <span style="--i:1">M</span>
+          <span style="--i:2">E</span>
+          <span style="--i:3">S</span>
+          <span style="--i:4">_</span>
+          <span style="--i:5">C</span>
+          <span style="--i:6">O</span>
+          <span style="--i:7">M</span>
+          <span style="--i:8">P</span>
+          <span style="--i:9">E</span>
+          <span style="--i:10">T</span>
+          <span style="--i:11">E</span>
+          <span style="--i:12">N</span>
+          <span style="--i:13">C</span>
+          <span style="--i:14">E</span>
+          <span style="--i:15">S</span>
+        </div>
+      <div class="box_comp">
+        <h2 class="box-title_alt4">Soft Skills 😊</h2>
+        <p class="text_box_comp">
+          Hardworker
+        </br>
+          Curieux
+        </br>
+          Sociable (Groupe de projets)
+        </br>
+          Sérieux
+        </br>
+          Ponctuel / Gestion du temps
+        </br>
+          
+        </p>
+        <h2 class="box-title_alt3">Hard Skills 🎓</h2>
+        <p class="text_box_comp_alt1">
+          Développement HTML / CSS
+        </br>
+          Modélisation 3D
+        </br>
+          Gestion de projet Git
+        </br>
+          Développement C# / Python / Luau
+        </br>
+          MAO : FL Studio / Ableton Live
+        </br>
+        </p>
+      </div>
     </main>
+
     <footer>
       <p>© 2026 - Zacharie | Fait avec passion</p>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="action_zacharie.js"></script>
+
   </body>
+
 </html>
