@@ -1,0 +1,85 @@
+div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body{
+    background-color: rgb(243, 240, 237);
+}
+
+img {
+    margin-left: 200px;
+    margin-right: auto;
+    display: block;
+}
+.cadre {
+    background-color: #bb8ab4;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 500px;
+    margin: 10px;
+
+}
+.cadre1 {
+    background-color: #8f6a9b;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 500px;
+    margin: 10px;
+}
+.cadre2 {
+    background-color: #70417e;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 500px;
+    margin: 10px;
+}
+
+
+
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .cadre3{
+    background-color: #bb8ab4;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 500px;
+    margin: 10px;
+
+}   
+.cadre4 {
+    background-color: #8f6a9b;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 500px;
+    margin: 10px;
+}
+
+.cadre5 {
+    background-color: #70417e;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 500px;
+    margin: 10px;
+}
+
+.parent2 {
+    display: flex;
