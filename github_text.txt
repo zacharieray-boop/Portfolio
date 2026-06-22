@@ -1,4 +1,24 @@
 git pull
-git add chloe_d.html
-git commit -m "fix: chloe_d"
+git add zacharie.html
+git commit -m "fix: zacharie.html"
+git push
+
+git pull
+git add style_zacharie.css
+git commit -m "fix: style_zacharie.css"
+git push
+
+git pull
+git add action_zacharie.js
+git commit -m "feat: action_zacharie.js"
+git push
+
+git pull
+git add index.html
+git commit -m "fix: index.html"
+git push
+
+git pull
+git add style_index.css
+git commit -m "fix: style_index.css"
 git push
