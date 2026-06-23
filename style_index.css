@@ -5,9 +5,11 @@
     margin-left: 10%;
     width: 80%;
     height: 50%;
+    color: #fff;
     background-color: rgb(58, 58, 58);
     border: 5px solid #ffffff;
     border-radius: 10px;
+    font-size: 20px;
 }
 html,body {
   width: 100%;
@@ -34,17 +36,15 @@ body {
 }
 .central {
     position: absolute;
-    top: 60%;
+    top: 85%;
     left: 25%;
     width: 800px;
     height: 800px;
 
-    -ms-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 .student-card {
+
     padding: 20px;
     font-family: sans-serif;
     border: 2px solid #11ff00;
@@ -112,47 +112,104 @@ body {
 .student-avatar {
     margin-top: 10%;
     margin-left: 10%;
-    height: 50px;
-    width: 50px;
-    background-color: #0073c5;
+    height: 100px;
+    width: 100px;
     font-family: sans-serif;
     border-radius: 25px;
-    border: 2px solid #00ffff;
+    border: 2px solid #fff;
     border-width: 5px;
-    box-shadow: 0 0 10px #00ffff;   
+    box-shadow: 0 0 10px #fff;   
     transform: rotate(-45deg);
 }
 .student-img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 25%;
 }
-.student-bio, .student-name {
+.student-bio {
     align-items: center;
     justify-content: center;
     text-align: center;
-    transform: rotate(-45deg);
+    rotate: -45deg;
+    position: absolute;
+    top: 175px;
+    left: 100px;
+    max-width: 250px;
+    overflow: hidden;
+}
+.student-name {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  rotate: -45deg;
+  position: absolute;
+  top: 150px;
+  left: 125px;
 }
 .txtbtn {
     transform: rotate(45deg);
 }
 
+.highlight {
+  font-size: 19px;
+  -webkit-text-stroke: 0.09375rem #000000;
+  -o-text-stroke: 0.09375rem #000000;
+  text-stroke: 0.09375rem #000000;
+  color: #000;
+  letter-spacing: 4px;
+  text-shadow: 4px 4px 0px #ff2d2d;
+}
+
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  -webkit-text-stroke: 0.5px #fff;
+  -o-text-stroke: 0.5px #fff;
+  text-stroke: 0.5px #fff;
+}
+
+.text-line {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: dash 5s linear forwards, filling 5s ease-in forwards;
+  font-size: 80px;
+}
+
+.text-line text {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes filling {
+  0%, 90% { fill: #ff2d2d; fill-opacity: 0; }
+  100% { fill: #ff2d2d; fill-opacity: 1; }
+}
+
 button {
 
-    margin-left: 74%;
-    margin-top: 7%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  margin-bottom: 10px;
+  margin-right: 10px;
+
 
     transform: rotate(-90deg);
 
     width: 75px;
     height: 75px;
-    border: 2px solid #00ffff;
-
+    border: 2px solid #fff;
 
   --btn-padding: 0.7em 1.2em;
-  --btn-bg: #020067;
   --btn-color: #0069e1;
-  --btn-hover-bg: #002ad1;
+  --btn-hover-bg: rgb(58, 58, 58);
   --btn-radius: 0.5em;
   --btn-border-width: 3px;
 
@@ -210,6 +267,24 @@ button:hover {
   text-shadow: -2px 0 blue;
   animation: glitch-2 2s 0s linear reverse infinite;
 }
+
+.foot {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10%;
+  width: 80%;
+  height: 50%;
+  color:#fff;
+  background-color: rgb(58, 58, 58);    
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
 @keyframes glitch-1 {
     0% {
     clip: rect(132px, auto, 101px, 30px);
