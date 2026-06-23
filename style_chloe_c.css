@@ -22,6 +22,7 @@ img {
     border: 1px; 
     max-width: 500px;
     margin: 10px;
+    height: 650px;
 
 }
 .cadre1 {
@@ -32,6 +33,7 @@ img {
     border: 1px; 
     max-width: 500px;
     margin: 10px;
+    height: 200px;
 }
 .cadre2 {
     background-color: #70417e;
@@ -41,28 +43,29 @@ img {
     border: 1px; 
     max-width: 500px;
     margin: 10px;
+    height: 200px;
 }
-
-
-
 
 .parent {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
 }
- .cadre3{
-    background-color: #bb8ab4;
+
+.cadre3{
+    background-color: #8f6a9b;
     color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 5px;
     border: 1px; 
     max-width: 500px;
     margin: 10px;
+     height: 150px;
 
-}   
+}
+
 .cadre4 {
-    background-color: #8f6a9b;
+background-color: #70417e;
     color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 5px;
@@ -72,14 +75,55 @@ img {
 }
 
 .cadre5 {
-    background-color: #70417e;
+    background-color: #bb8ab4;
     color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 5px;
     border: 1px; 
     max-width: 500px;
     margin: 10px;
+    height: 220px;
 }
 
-.parent2 {
-    display: flex;
+.cadre6 {
+    background-color: #bb8ab4;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 500px;
+    margin: 10px;
+    height: 220px;
+}
+
+
+
+button {
+  --btn-padding: 0.7em 1.2em;
+  --btn-bg: #342a21;
+  --btn-color: #ffffff;
+  --btn-hover-bg: #4b4b4a;
+  --btn-radius: 0.5em;
+  --btn-border-width: 3px;
+
+  display: inline-flex;
+  align-items: center;
+  padding: var(--btn-padding);
+  gap: 0.5em;
+
+  background: var(--btn-bg);
+  color: var(--btn-color);
+  border: var(--btn-border-width) solid var(--btn-bg);
+  border-radius: var(--btn-radius);
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background: var(--btn-hover-bg);
+}
