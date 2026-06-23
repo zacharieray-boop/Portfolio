@@ -2,7 +2,7 @@
 
 body {
 
-    background-color: rgba(207, 238, 237, 0.837); /* Le fond de la page sera turquoise */
+    background-color: rgba(199, 236, 255, 0.837); /* Le fond de la page sera bleu clair */
    
 }
 
@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(94, 50, 239); /* Le texte de la page sera bleu ciel */
+    color: rgba(94, 50, 239, 0.819); /* Le texte de la page sera bleu ciel */
 }
 
 .title {
@@ -22,12 +22,12 @@ h2 {
 .box1 {
     display: block;
     text-align: center;
-    margin-left: 30vw;
-    margin-right: 30vw;
+    margin-left: 30%;
+    margin-right: 30%;
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 30px;
-    background-color:  rgb(195, 251, 224);
+    background-color:  rgb(211, 195, 251);
     margin-bottom: 1%;
 }
 
@@ -39,7 +39,7 @@ h2 {
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 30px;
-    background-color:  rgb(195, 251, 224);
+    background-color:  rgb(211, 195, 251);
     width: 50%;
     margin-bottom: 1%;
 }
@@ -49,10 +49,10 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     border-radius: 30px;
-    background-color:  rgb(195, 251, 224);
+    background-color:  rgb(211, 195, 251);
     width: 50%;
     margin-bottom: 1%;
 }
@@ -60,36 +60,15 @@ h2 {
 .box4 {
     display: block;
     justify-content: center;
-    align-items: center;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    border-radius: 30px;
-    background-color:  rgb(195, 251, 224);
-    width: 50%;
-}
-
-
-.box5 {
-     display: block;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-radius: 30px;
-    background-color:  rgb(195, 251, 224);
-    width: 50%;
+    background-color:  rgb(211, 195, 251);
     margin-bottom: 1%;
-
 }
-
-
-/*.cadre {
-display: flex;
-flex-direction: row;
-gap: 20px;
-}/*/
-
 
 
