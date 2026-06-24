@@ -6,7 +6,7 @@ div{
 }
 
 body{
-    background-color: rgb(243, 240, 237);
+    background-color: rgba(184, 152, 186, 0.595);
 }
 
 img {
@@ -60,7 +60,7 @@ img {
     border: 1px; 
     max-width: 500px;
     margin: 10px;
-     height: 150px;
+     height: 160px;
 
 }
 
@@ -93,8 +93,87 @@ background-color: #70417e;
     border: 1px; 
     max-width: 500px;
     margin: 10px;
-    height: 220px;
+    height: 240px;
 }
+
+.cadre7 {
+    background-color: #8f6a9b;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 500px;
+    margin: 10px;
+    height: 340px;
+}
+
+.contact1 {
+    margin-left : auto ;
+    margin-right: auto ;
+    display: block;
+}
+
+.contact2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.contact3 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.parent1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+
+.contact4 {
+    background-color: #8f6a9b;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 300px;
+    margin: 10px;
+    height: 40px;
+}
+
+.contact5 {
+    background-color: #bb8ab4;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 300px;
+    margin: 10px;
+    height: 40px;
+}
+
+.contact6 {
+    background-color: #70417e;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 300px;
+    margin: 10px;
+    height: 40px;
+}
+
+.parent2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+
+
+
 
 
 
