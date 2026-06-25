@@ -704,55 +704,62 @@ width: 1400px;
 height: 550px;
 padding: 20px;
 margin-top: 20px;
-background-color: #001059;
+background-color: #2f2f2f;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #00aeff;
+border: 2px solid #fff;
 border-width: 5px;
-box-shadow: 0 0 10px #00aeff;
+box-shadow: 0 0 10px #fff;
 }
 
 .text_box_stage {
+color: #fff;
 padding: 20px;
-background-color: #a72a00;
+background-color: #00117f;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #ff6600;
+border: 2px solid #00eeff;
 border-width: 5px;
-box-shadow: 0 0 10px #ff6600;
+box-shadow: 0 0 10px #00eeff;
 }
 .text_box_stage_alt1 {
+color: #fff;
 font-size: 20px;
 justify-content: center;
 width: 45%;
 height: 250px;
 padding: 20px;
-background-color: #a72a00;
+background-color: #004304;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #ff6600;
+border: 2px solid #00ff00;
 border-width: 5px;
-box-shadow: 0 0 10px #ff6600;
+box-shadow: 0 0 10px #00ff00;
 overflow: scroll;
+overflow-x: hidden;
+scrollbar-color: #000;
+scrollbar-width: 2px;
 }
 .text_box_stage_alt2 {
+color: #fff;
 font-size: 20px;
 justify-content: center;
 margin-left: 51%;
 width: 45%;
 height: 250px;
 padding: 20px;
-background-color: #a72a00;
+background-color: #420047;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #ff6600;
+border: 2px solid #f700ff;
 border-width: 5px;
-box-shadow: 0 0 10px #ff6600;
+box-shadow: 0 0 10px #f700ff;
 overflow: scroll;
+overflow-x: hidden;
 }
 
 .box-title_stage1 {
