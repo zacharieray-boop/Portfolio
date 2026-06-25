@@ -315,11 +315,40 @@ box-shadow: 0 0 10px #ea00ff;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.button_stage {
+  position: absolute;
+  top: 425px;
+  right: 45px;
+  --btn-padding: 0.7em 1.2em;
+  --btn-bg: #342a21;
+  --btn-color: #ffffff;
+  --btn-hover-bg: #4b4b4a;
+  --btn-radius: 0.5em;
+  --btn-border-width: 3px;
+
+  display: inline-flex;
+  align-items: center;
+  padding: var(--btn-padding);
+  gap: 0.5em;
+
+  background: var(--btn-bg);
+  color: var(--btn-color);
+  border: var(--btn-border-width) solid var(--btn-bg);
+  border-radius: var(--btn-radius);
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 .button:hover {
   background: var(--btn-hover-bg);
 }
 .banner-container {
-  background-image: url('image copy.png');
+  background-image: url('banner.png');
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -668,4 +697,79 @@ span {
 }
 .bouton2-fermer:hover {
   color: black;
+}
+
+.box_stage {
+width: 1400px;
+height: 550px;
+padding: 20px;
+margin-top: 20px;
+background-color: #001059;
+font-family: sans-serif;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #00aeff;
+border-width: 5px;
+box-shadow: 0 0 10px #00aeff;
+}
+
+.text_box_stage {
+padding: 20px;
+background-color: #a72a00;
+font-family: sans-serif;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ff6600;
+border-width: 5px;
+box-shadow: 0 0 10px #ff6600;
+}
+.text_box_stage_alt1 {
+font-size: 20px;
+justify-content: center;
+width: 45%;
+height: 250px;
+padding: 20px;
+background-color: #a72a00;
+font-family: sans-serif;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ff6600;
+border-width: 5px;
+box-shadow: 0 0 10px #ff6600;
+overflow: scroll;
+}
+.text_box_stage_alt2 {
+font-size: 20px;
+justify-content: center;
+margin-left: 51%;
+width: 45%;
+height: 250px;
+padding: 20px;
+background-color: #a72a00;
+font-family: sans-serif;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ff6600;
+border-width: 5px;
+box-shadow: 0 0 10px #ff6600;
+overflow: scroll;
+}
+
+.box-title_stage1 {
+text-align: left;
+margin-top: 10px;
+margin-left: 200px;
+font-family: Impact, monospace;
+font-size: 2em;
+color: #ffffff;
+-webkit-text-stroke: 0.5px #000000;
+}
+.box-title_stage2 {
+text-align: right;
+margin-top: -388px;
+margin-right: 200px;
+font-family: Impact, monospace;
+font-size: 2em;
+color: #ffffff;
+-webkit-text-stroke: 0.5px #000000;
 }
