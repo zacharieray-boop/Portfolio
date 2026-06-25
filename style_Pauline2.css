@@ -1,0 +1,53 @@
+
+body {
+
+    background-color: rgba(199, 236, 255, 0.837); /* Le fond de la page sera bleu clair */
+}
+
+h1 {
+    color: rgb(0, 157, 255); /* Le texte de la page sera bleu ciel */
+}
+
+
+h2 {
+    color: rgb(50, 94, 239); /* Le texte de la page sera bleu  */
+}
+
+h3 {
+    color: rgb(0, 113, 251); /* Le texte de la page sera violet */
+}
+
+h4 {
+    color: rgb(32, 29, 105); /* Le texte de la page sera bleu foncé*/
+}
+
+.title {
+    text-align: center;
+}
+
+.box1 {
+   display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 20px;
+    background-color:  rgb(211, 195, 251);
+    width: 50%;
+    margin-bottom: 1%;
+}
+
+.box2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:1% ;
+    padding-bottom:1% ; 
+    border-radius:20px;
+    background-color:  rgb(211, 195, 251);
+    width: 20%;
+    margin-bottom: 1%;
+}
+
