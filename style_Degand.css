@@ -1,121 +1,125 @@
 header h1 {
-font-family: impact;
+font-family: 'Times New Roman', Times, serif;
 font-size: 60px;
-color: #615d4b;
+color: #296336;
 text-align: center;
 }
+
 body {  
-background-color: #c3bb90;
+background-color: #9BD190;
+}
+main {
+
 }
 .box {
-width: 350px;
+width: 97%;
 height: 250px;
-padding: 20px;
-background-color: #56543e;
+background-color: #9ED9AA;
 font-family: sans-serif;
+font-size : 40px;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #34332a;
+border: 2px solid #296336;
 border-width: 5px;
-box-shadow: 0 0 10px #494735;
 font-size: 20px;
-color: #c3bb90
+color: #226148;
+
 }
 .box_qualité {
-width: 350px;
+width: 31%;
 height: 250px;
-padding: 20px;
-background-color: #6d0040;
+background-color: #9ED9AA;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #ff00e1;
+border: 2px solid #296336;
 border-width: 5px;
-box-shadow: 0 0 10px #ff00e1;
-color: #000000
+color: #226148;
+
 }
 .box_loisirs {
-width: 350px;
+width: 31%;
 height: 250px;
-padding: 20px;
-background-color: #6d2800;
+background-color: #9ED9AA;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #ff6f00;
+border: 2px solid #296336;
 border-width: 5px;
-box-shadow: 0 0 10px #ff6f00;
-color: #000000
+color: #226148;
+
+
 }
 
 
 .box_projets {
-width: 350px;
+width: 30%;
 height: 250px;
-padding: 20px;
-background-color: #6d2800;
+background-color: #9ED9AA;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #ff6f00;
+border: 2px solid #296336;
 border-width: 5px;
-box-shadow: 0 0 10px #ff6f00;
-color: #000000
+color: #226148;
+
+
 }
 .box_compétence{
-width: 350px;
-height: 250px;
-padding: 20px;
-background-color: #6d2800;
+width:97%;
+height: 27%;
+background-color: #9ED9AA;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #ff6f00;
+border: 2px solid #296336;
 border-width: 5px;
-box-shadow: 0 0 10px #ff6f00;
-color: #000000
+color: #226148;
+
+
 }
+
 .box_langues{
-width: 350px;
+width: 48%;
 height: 250px;
-padding: 20px;
-background-color: #6d2800;
+background-color: #9ED9AA;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #ff6f00;
+border: 2px solid #296336;
 border-width: 5px;
-box-shadow: 0 0 10px #ff6f00;
-color: #000000
+color: #226148;
+
+
 }
 
 .box_réalisation{
-width: 350px;
+width: 47%;
 height: 250px;
-padding: 20px;
-background-color: #6d2800;
+background-color: #9ED9AA;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #ff6f00;
+border: 2px solid #296336;
 border-width: 5px;
-box-shadow: 0 0 10px #ff6f00;
-color: #000000
+color: #226148;
+
+
 }
 
 
 .box_contact {
-width: 350px;
+width: 97%;
 height: 250px;
-padding: 20px;
-background-color: #6d2800;
+background-color: #9ED9AA;
 font-family: sans-serif;
 text-align: center;
 border-radius: 10px;
-border: 2px solid #ff6f00;
+border: 2px solid #296336;
 border-width: 5px;
-box-shadow: 0 0 10px #ff6f00;
-color: #000000
+color: #226148;
+
+
 }
 button {
   --btn-padding: 0.7em 1.2em;
@@ -146,3 +150,187 @@ button {
 .button:hover {
   background: var(--btn-hover-bg);
 }
+
+.button2 {
+  --btn-padding: 0.7em 1.2em;
+  --btn-bg: #342a21;
+  --btn-color: #ffffff;
+  --btn-hover-bg: #4b4b4a;
+  --btn-radius: 0.5em;
+  --btn-border-width: 3px;
+
+  display: inline-flex;
+  align-items: center;
+  padding: var(--btn-padding);
+  gap: 0.5em;
+
+  background: var(--btn-bg);
+  color: var(--btn-color);
+  border: var(--btn-border-width) solid var(--btn-bg);
+  border-radius: var(--btn-radius);
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: absolute;
+left:0%;
+top: 165%;
+margin-bottom: 5%;
+}
+
+.container{
+   flex-direction: row ;
+   display: flex;
+   gap: 40px;
+   flex-wrap: wrap;
+}
+.box_lundi {
+width: 47%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius: 50px 25px 25px 50px;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+
+.box_mardi {
+width: 47%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius:  25px 50px 50px 25px ;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+
+.box_mercredi {
+width: 31%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius: 50px 25px 25px 50px;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+
+.box_jeudi{
+width:30%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius: 25px 25px 25px 25px;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+
+.box_vendredi {
+width: 31%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius: 25px 50px 50px 25px;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+
+.box_lundi2 {
+width:47%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius: 50px 25px 25px 50px;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+
+.box_mardi2 {
+width: 47%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius: 25px 50px 50px 25px;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+
+.box_mercredi2 {
+width: 31%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius: 50px 25px 25px 50px;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+
+.box_jeudi2 {
+width: 30%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius: 25px 25px 25px 25px;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+
+.box_vendredi2 {
+width: 31%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius: 25px 50px 50px 25px;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+.container2{
+   flex-direction: row;
+   display: flex;
+   gap: 40px;
+   flex-wrap: wrap;
+}
+
+.box_présentation {
+width: 97%;
+height: 250px;
+background-color: #9ED9AA;
+font-family: sans-serif;
+text-align: center;
+border-radius: 25px;
+border: 2px solid #296336;
+border-width: 5px;
+color: #226148;
+}
+
+.h1{
+font-family: 'Times New Roman', Times, serif;
+font-size: 60px;
+color: #296336;
+text-align: center;
+}
+
+
+
