@@ -6,7 +6,7 @@ div{
 }
 
 body{
-    background-color: rgb(243, 240, 237);
+    background-color: rgba(184, 152, 186, 0.595);
 }
 
 img {
@@ -60,7 +60,7 @@ img {
     border: 1px; 
     max-width: 500px;
     margin: 10px;
-     height: 150px;
+     height: 160px;
 
 }
 
@@ -93,16 +93,88 @@ background-color: #70417e;
     border: 1px; 
     max-width: 500px;
     margin: 10px;
-    height: 220px;
+    height: 240px;
 }
 
+.cadre7 {
+    background-color: #8f6a9b;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 500px;
+    margin: 10px;
+    height: 340px;
+}
+
+.contact1 {
+    
+    display: block;
+}
+
+.contact2 {
+  
+    display: block;
+}
+.contact3 {
+    
+    display: block;
+}
+
+
+.parent1 {
+    display: flex column;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+.contact4 {
+    background-color: #8f6a9b;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 300px;
+    height: 40px;
+}
+
+.contact5 {
+    background-color: #bb8ab4;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px; 
+    max-width: 300px;
+    height: 40px;
+}
+
+.contact6 {
+    background-color: #70417e;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px; 
+    max-width: 270px;
+    height: 40px;
+}
+
+.parent2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.picture {
+clip-path: circle(25% at 76%);
+}
 
 
 button {
   --btn-padding: 0.7em 1.2em;
-  --btn-bg: #342a21;
-  --btn-color: #ffffff;
-  --btn-hover-bg: #4b4b4a;
+  --btn-bg: #70417e;
+  --btn-color: #8f6a9b;
+  --btn-hover-bg: #bb8ab4;
   --btn-radius: 0.5em;
   --btn-border-width: 3px;
 
@@ -120,10 +192,12 @@ button {
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
-
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .button:hover {
   background: var(--btn-hover-bg);
+  
 }
