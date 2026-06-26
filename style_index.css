@@ -144,13 +144,15 @@ body {
     overflow: hidden;
 }
 .student-name {
+  font-size: 30px;
   align-items: center;
   text-align: center;
   justify-content: center;
   rotate: -45deg;
   position: absolute;
-  top: 135px;
-  left: 100px;
+  top: 140px;
+  left: 90px;
+  text-shadow: 4px 4px #fff;
 }
 .txtbtn {
     transform: rotate(45deg);
